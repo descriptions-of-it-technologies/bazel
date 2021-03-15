@@ -30,16 +30,23 @@
 
 
 ## Pros.
-* Fast.
+* Correct - newer need to "clean" or wonder if build outputs are up-to-date. 
+* Fast - provide fast build execution.
+  * Parallelism - execute on multiple locale or remote CPUs
+  * Incremental - don't re-build everything from scratch
+* Deterministic - the output depends entirely on the input(predictability, caching)
+* Composable - allows reuse of existing build rules and creating new ones by combining them.
+* Universal - Builds Android, iOS, web, backends, cloud services, and more...
+* Multi-process - Isolation, allow more tool runtimes, defense against mem leaks.
 * Reproducible build and test.
 * Cloud accelerated.
-* Google OSS.
+* OSS solution.
+* Google Cloud Build.
 * D.R.Y Only retest when necessary.
 * Bazel's build graph optimizes new work. 
   * Independent piece of code will be builds in parallel.
   * Reuse still-valid build/test results.
 * Execute tests in parallel.
-* Correct.
 * Scalable.
 * Bazel's cache elements re-work. 
   * Cloud cache.
@@ -56,6 +63,13 @@
 * More config tool to maintain.
 
 
+
+
+
+## Google Cloud Build.
+* Google Results Store
+* Build History filters
+* Google RBE Alpha
 
 
 
