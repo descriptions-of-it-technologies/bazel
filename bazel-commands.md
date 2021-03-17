@@ -4,7 +4,9 @@
 
 | Key/Command                                              | Description                                                                                                              |
 | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| bazel build //:targetName                                |                                                                                                                          |
 | bazel build //...                                        |                                                                                                                          |
+| bazel build //...:all                                    |                                                                                                                          |
+| bazel build //:targetName                                |                                                                                                                          |
+| bazel clean                                              |                                                                                                                          |
 | bazel clean --expunge                                    |                                                                                                                          |
 |                                                          |                                                                                                                          |
