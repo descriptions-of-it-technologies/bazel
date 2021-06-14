@@ -1,5 +1,25 @@
 # Bazel Commands.
 
+
+
+
+
+## Sort this commands
+
+| Key/Command                                              | Description                                                                                                              |
+| -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| bazel build :container                                   |                                                                                                                          |
+| bazel build :all-external-targets                        |                                                                                                                          |
+| bazel clean                                              |                                                                                                                          |
+| bazel build :container                                   |                                                                                                                          |
+| bazel run :tests                                         |                                                                                                                          |
+|                                                          |                                                                                                                          |
+|                                                          |                                                                                                                          |
+
+
+
+
+
 ## bazel build
 
 | Key/Command                                              | Description                                                                                                              |
