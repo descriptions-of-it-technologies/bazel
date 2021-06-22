@@ -13,6 +13,8 @@
 | bazel clean                                              |                                                                                                                          |
 | bazel build :container                                   |                                                                                                                          |
 | bazel run :tests                                         |                                                                                                                          |
+| bazel build :tests                                       |                                                                                                                          |
+| bazel test :tests                                        |                                                                                                                          |
 |                                                          |                                                                                                                          |
 |                                                          |                                                                                                                          |
 
